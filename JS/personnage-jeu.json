@@ -1,0 +1,928 @@
+{
+    "HonkaiStarRail":[
+        {
+            "id" : 1,
+            "nom": "Dan Heng",
+            "voie": "Chasse",
+            "element": "Vent",
+            "image": "images/HSR/dan-heng.webp",
+            "rang": "4",
+            "lien": "personnage/Danheng.html"
+            
+        },
+        
+        {
+            "id" : 2,
+            "nom": "March 7th",
+            "voie": "Préservation",
+            "element": "Glace",
+            "image": "images/HSR/march7th.webp",
+            "rang": "4",
+            "lien": "personnage/March7th.html"
+        },
+
+        {
+            "id" : 3,
+            "nom": "Himeko",
+            "voie": "Erudition",
+            "element": "Feu",
+            "image": "images/HSR/himeko.webp",
+            "rang": "5",
+            "lien": "personnage/Himeko.html"
+        },
+
+        {
+            "id" : 4,
+            "nom": "Welt",
+            "voie": "Nihilité",
+            "element": "Imaginaire",
+            "image": "images/HSR/welt.webp",
+            "rang": "5",
+            "lien": "personnage/Welt.html"
+        },
+
+        {
+            "id" : 5,
+            "nom": "Sampo",
+            "voie": "Nihilité",
+            "element": "Vent",
+            "image": "images/HSR/sampo.webp",
+            "rang": "4",
+            "lien": "personnage/Sampo.html"
+        },
+
+        {
+            "id" : 6,
+            "nom": "Gepard",
+            "voie": "Préservation",
+            "element": "Glace",
+            "image": "images/HSR/gepard.webp",
+            "rang": "5",
+            "lien": "personnage/Gepard.html"
+        },
+
+        {
+            "id" : 7,
+            "nom": "Bronya",
+            "voie": "Harmonie",
+            "element": "Vent",
+            "image": "images/HSR/bronya.webp",
+            "rang": "5",
+            "lien": "personnage/Bronya.html"
+        },
+
+        {
+            "id" : 8,
+            "nom": "Pela",
+            "voie": "Nihilité",
+            "element": "Glace",
+            "image": "images/HSR/pela.webp",
+            "rang": "4",
+            "lien": "personnage/Pela.html"
+        },
+
+        {
+            "id" : 9,
+            "nom": "Serval",
+            "voie": "Erudition",
+            "element": "Foudre",
+            "image": "images/HSR/serval.webp",
+            "rang": "4",
+            "lien": "personnage/Serval.html"
+        },
+
+        {
+            "id" : 10,
+            "nom": "Natasha",
+            "voie": "Abondance",
+            "element": "Physique",
+            "image": "images/HSR/natasha.webp",
+            "rang": "4",
+            "lien": "personnage/Natasha.html"
+        },
+
+        {
+            "id" : 11,
+            "nom": "Seele",
+            "voie": "Chasse",
+            "element": "Quantique",
+            "image": "images/HSR/seele.webp",
+            "rang": "5",
+            "lien": "personnage/Seele.html"
+        },
+
+        {
+            "id" : 12,
+            "nom": "Clara",
+            "voie": "Destruction",
+            "element": "Physique",
+            "image": "images/HSR/clara.webp", 
+            "rang": "5",
+            "lien": "personnage/Clara.html"
+        },
+
+        {
+            "id" : 13,
+            "nom": "Hook",
+            "voie": "Destruction",
+            "element": "Feu",
+            "image": "images/HSR/hook.webp",
+            "rang": "4",
+            "lien": "personnage/Hook.html"
+        },
+
+        {
+            "id" : 14,
+            "nom": "Luka",
+            "voie": "Nihilité",
+            "element": "Physique",
+            "image": "images/HSR/luka.webp",
+            "rang": "4",
+            "lien": "personnage/Luka.html"
+        },
+
+        {
+            "id" : 15,
+            "nom": "Lynx",
+            "voie": "Abondance",
+            "element": "Quantique",
+            "image": "images/HSR/lynx.webp",
+            "rang": "4",
+            "lien": "personnage/Lynx.html"
+        },
+
+        {
+            "id" : 16,
+            "nom": "Arlan",
+            "voie": "Destruction",
+            "element": "Foudre",
+            "image": "images/HSR/arlan.webp",
+            "rang": "4",
+            "lien": "personnage/Arlan.html"
+        },
+
+        {
+            "id" : 17,
+            "nom": "Asta",
+            "voie": "Harmonie",
+            "element": "Feu",
+            "image": "images/HSR/asta.webp",
+            "rang": "4",
+            "lien": "personnage/Asta.html"
+        },
+
+        {
+            "id" : 18,
+            "nom": "Herta",
+            "voie": "Erudition",
+            "element": "Glace",
+            "image": "images/HSR/herta.webp",
+            "rang": "4",
+            "lien": "personnage/Herta.html"
+        },
+
+        {
+            "id" : 19,
+            "nom": "Ruan Mei",
+            "voie": "Harmonie",
+            "element": "Glace",
+            "image": "images/HSR/ruan-mei.webp",
+            "rang": "5",
+            "lien": "personnage/Ruanmei.html"
+        },
+
+        {
+            "id" : 20,
+            "nom": "Topaz",
+            "voie": "Chasse",
+            "element": "Feu",
+            "image": "images/HSR/topaz.webp",
+            "rang": "5",
+            "lien": "personnage/Topaz.html"
+        },
+
+        {
+            "id" : 21,
+            "nom": "Aventurine",
+            "voie": "Préservation",
+            "element": "Imaginaire",
+            "image": "images/HSR/aventurine.webp",
+            "rang": "5",
+            "lien": "personnage/Aventurine.html"
+        },
+
+        {
+            "id" : 22,
+            "nom": "Jade",
+            "voie": "Erudition",
+            "element": "Quantique",
+            "image": "images/HSR/jade.webp",
+            "rang": "5",
+            "lien": "personnage/Jade.html"
+        },
+        
+        {
+            "id" : 23,
+            "nom": "Dr Ratio",
+            "voie": "Chasse",
+            "element": "Imaginaire",
+            "image": "images/HSR/dr-ratio.webp",
+            "rang": "5",
+            "lien": "personnage/Ratio.html"
+        },
+
+        {
+            "id" : 24,
+            "nom": "Kafka",
+            "voie": "Nihilité",
+            "element": "Foudre",
+            "image": "images/HSR/kafka.webp",
+            "rang": "5",
+            "lien": "personnage/Kafka.html"
+        },
+
+        {
+            "id" : 25,
+            "nom": "Louve d'Argent",
+            "voie": "Nihilité",
+            "element": "Quantique",
+            "image": "images/HSR/silver-wolf.webp",
+            "rang": "5",
+            "lien": "personnage/Louveargent.html"
+        },
+
+        {
+            "id" : 26,
+            "nom": "Blade",
+            "voie": "Destruction",
+            "element": "Vent",
+            "image": "images/HSR/blade.webp",
+            "rang": "5",
+            "lien": "personnage/Blade.html"
+        },
+
+        {
+            "id" : 27,
+            "nom": "Luciole",
+            "voie": "Destruction",
+            "element": "Feu",
+            "image": "images/HSR/firefly.webp",
+            "rang": "5",
+            "lien": "personnage/Luciole.html"
+        },
+
+        {
+            "id" : 28,
+            "nom": "Luocha",
+            "voie": "Abondance",
+            "element": "Imaginaire",
+            "image": "images/HSR/luocha.webp",
+            "rang": "5",
+            "lien": "personnage/Luocha.html"
+        },
+
+        {
+            "id" : 29,
+            "nom": "Sushang",
+            "voie": "Chasse",
+            "element": "Physique",
+            "image": "images/HSR/sushang.webp",
+            "rang": "4",
+            "lien": "personnage/Sushang.html"
+        },
+
+        {
+            "id" : 30,
+            "nom": "Jing Yuan",
+            "voie": "Erudition",
+            "element": "Foudre",
+            "image": "images/HSR/jing-yuan.webp",
+            "rang": "5",
+            "lien": "personnage/Jingyuan.html"
+        },
+
+        {
+            "id" : 31,
+            "nom": "Fu Xuan",
+            "voie": "Préservation",
+            "element": "Quantique",
+            "image": "images/HSR/fuxuan.webp",
+            "rang": "5",
+            "lien": "personnage/Fuxuan.html"
+        },
+
+        {
+            "id" : 32,
+            "nom": "Yanqing",
+            "voie": "Chasse",
+            "element": "Glace",
+            "image": "images/HSR/yanqing.webp",
+            "rang": "5",
+            "lien": "personnage/Yanqing.html"
+        },
+
+        {
+            "id" : 33,
+            "nom": "Bailu",
+            "voie": "Abondance",
+            "element": "Foudre",
+            "image": "images/HSR/bailu.webp",
+            "rang": "5",
+            "lien": "personnage/Bailu.html"
+        },
+
+        {
+            "id" : 34,
+            "nom": "Tingyun",
+            "voie": "Harmonie",
+            "element": "Foudre",
+            "image": "images/HSR/tingyun.webp",
+            "rang": "4",
+            "lien": "personnage/Tingyun.html"
+        },
+
+        {
+            "id" : 35,
+            "nom": "Qingque",
+            "voie": "Erudition",
+            "element": "Quantique",
+            "image": "images/HSR/qingque.webp",
+            "rang": "4",
+            "lien": "personnage/Qingque.html"
+        },
+
+        {
+            "id" : 36,
+            "nom": "Yukong",
+            "voie": "Harmonie",
+            "element": "Imaginaire",
+            "image": "images/HSR/yukong.webp",
+            "rang": "4",
+            "lien": "personnage/Yukong.html"
+        },
+
+        {
+            "id" : 37,
+            "nom": "Xueyi",
+            "voie": "Destruction",
+            "element": "Quantique",
+            "image": "images/HSR/xueyi.webp",
+            "rang": "4",
+            "lien": "personnage/Xueyi.html"
+        },
+
+        {
+            "id" : 38,
+            "nom": "Jingliu",
+            "voie": "Destruction",
+            "element": "Glace",
+            "image": "images/HSR/jingliu.webp",
+            "rang": "5",
+            "lien": "personnage/Jingliu.html"
+        },
+
+        {
+            "id" : 39,
+            "nom": "Guinaifen",
+            "voie": "Nihilité",
+            "element": "Feu",
+            "image": "images/HSR/guinaifen.webp",
+            "rang": "4",
+            "lien": "personnage/Guinaifen.html"
+        },
+
+        {
+            "id" : 40,
+            "nom": "Dan Heng • Imbibitor Lunae",
+            "voie": "Destruction",
+            "element": "Imaginaire",
+            "image": "images/HSR/dan-imbi.webp",
+            "rang": "5",
+            "lien": "personnage/DanImbibi.html"
+        },
+
+        {
+            "id" : 41,
+            "nom": "Hanya",
+            "voie": "Harmonie",
+            "element": "Physique",
+            "image": "images/HSR/hanya.webp",
+            "rang": "4",
+            "lien": "personnage/Hanya.html"
+        },
+
+        {
+            "id" : 42,
+            "nom": "Huohuo",
+            "voie": "Abondance",
+            "element": "Vent",
+            "image": "images/HSR/huohuo.webp",
+            "rang": "5",
+            "lien": "personnage/Huohuo.html"
+        },
+
+        {
+            "id" : 43,
+            "nom": "Jiaoqiu",
+            "voie": "Nihilité",
+            "element": "Feu",
+            "image": "images/HSR/jiaoqiu.webp",
+            "rang": "5",
+            "lien": "personnage/Jiaoqiu.html"
+        },
+
+        {
+            "id" : 44,
+            "nom": "Yunli",
+            "voie": "Destruction",
+            "element": "Physique",
+            "image": "images/HSR/yunli.webp",
+            "rang": "5",
+            "lien": "personnage/Yunli.html"
+        },
+
+        {
+            "id" : 45,
+            "nom": "Cygne noir",
+            "voie": "Nihilité",
+            "element": "Vent",
+            "image": "images/HSR/blackswan.webp",
+            "rang": "5",
+            "lien": "personnage/Cygnenoir.html"
+        },
+
+        {
+            "id" : 46,
+            "nom": "Achéron",
+            "voie": "Nihilité",
+            "element": "Foudre",
+            "image": "images/HSR/acheron.webp",
+            "rang": "5",
+            "lien": "personnage/Acheron.html"
+        },
+
+        {
+            "id" : 47,
+            "nom": "Sparkle",
+            "voie": "Harmonie",
+            "element": "Quantique",
+            "image": "images/HSR/sparkle.webp",
+            "rang": "5",
+            "lien": "personnage/Sparkle.html"
+        },
+
+        {
+            "id" : 48,
+            "nom": "Micha",
+            "voie": "Destruction",
+            "element": "Glace",
+            "image": "images/HSR/misha.webp",
+            "rang": "4",
+            "lien": "personnage/Micha.html"
+        },
+
+        {
+            "id" : 49,
+            "nom": "Robin",
+            "voie": "Harmonie",
+            "element": "Physique",
+            "image": "images/HSR/robin.webp",
+            "rang": "5",
+            "lien": "personnage/Robin.html"
+        },
+
+        {
+            "id" : 50,
+            "nom": "Gallagher",
+            "voie": "Abondance",
+            "element": "Feu",
+            "image": "images/HSR/gallagher.webp",
+            "rang": "4",
+            "lien": "personnage/Gallagher.html"
+        },
+
+        {
+            "id" : 51,
+            "nom": "Le Fossoyeur",
+            "voie": "Chasse",
+            "element": "Physique",
+            "image": "images/HSR/boothill.webp",
+            "rang": "5",
+            "lien": "personnage/Fossoyeur.html"
+        },
+
+        {
+            "id" : 52,
+            "nom": "Argenti",
+            "voie": "Erudition",
+            "element": "Physique",
+            "image": "images/HSR/argenti.webp",
+            "rang": "5",
+            "lien": "personnage/Argenti.html"
+        },
+
+        {
+            "id" : 53,
+            "nom": "Trailblazer (Destruction)",
+            "voie": "Destruction",
+            "element": "Physique",
+            "image": "images/HSR/phys_mc.webp",
+            "rang": "5",
+            "lien": "personnage/TrailblazerDestruction.html"
+        },
+
+        {
+            "id" : 54,
+            "nom": "Trailblazer (Harmonie)",
+            "voie": "Harmonie",
+            "element": "Imaginaire",
+            "image": "images/HSR/harmony_mc.webp",
+            "rang": "5",
+            "lien": "personnage/TrailblazerHarmonie.html"
+        },
+
+        {
+            "id" : 55,
+            "nom": "Trailblazer (Preservation)",
+            "voie": "Préservation",
+            "element": "Feu",
+            "image": "images/HSR/fire_mc.webp",
+            "rang": "5",
+            "lien": "personnage/TrailblazerPreservation.html"
+        }
+    ],
+
+    "ZZZ":[
+        {
+            "id" : 1,
+            "nom": "Ellen",
+            "voie": "Attack",
+            "element": "glace",
+            "image": "images/ZZZ/ellen.webp",
+            "rang": "S",
+            "lien": "personnage/Ellen.html"
+        },
+
+        {
+            "id" : 2,
+            "nom": "Anby",
+            "voie": "Confusion",
+            "element": "Electrique",
+            "image": "images/ZZZ/anby.webp",
+            "rang": "A",
+            "lien": "personnage/Anby.html"
+        },
+
+        {
+            "id" : 3,
+            "nom": "Anton",
+            "voie": "Attack",
+            "element": "Electrique",
+            "image": "images/ZZZ/anton.webp",
+            "rang": "A",
+            "lien": "personnage/Anton.html"
+        },
+        
+        {
+            "id" : 4,
+            "nom": "Ben",
+            "voie": "Defense",
+            "element": "feu",
+            "image": "images/ZZZ/ben.webp",
+            "rang": "A",
+            "lien": "personnage/Ben.html"
+        },
+        
+        {
+            "id" : 5,
+            "nom": "Billy",
+            "voie": "Attack",
+            "element": "physique",
+            "image": "images/ZZZ/billy.webp",
+            "rang": "A",
+            "lien": "personnage/Billy.html"
+        },
+
+        {
+            "id" : 6,
+            "nom": "Corin",
+            "voie": "Attack",
+            "element": "physique",
+            "image": "images/ZZZ/corin.webp",
+            "rang": "A",
+            "lien": "personnage/Corin.html"
+        },
+
+        {
+            "id" : 7,
+            "nom": "Grace",
+            "voie": "Anomalie",
+            "element": "Electrique",
+            "image": "images/ZZZ/grace.webp",
+            "rang": "S",
+            "lien": "personnage/Grace.html"
+        },
+
+        {
+            "id" : 8,
+            "nom": "Koleda",
+            "voie": "Confusion",
+            "element": "feu",
+            "image": "images/ZZZ/koleda.webp",
+            "rang": "S",
+            "lien": "personnage/Koleda.html"
+        },
+
+        {
+            "id" : 9,
+            "nom": "Lucy",
+            "voie": "Support",
+            "element": "feu",
+            "image": "images/ZZZ/lucy.webp",
+            "rang": "A",
+            "lien": "personnage/Lucy.html"
+        },
+
+        {
+            "id" : 10,
+            "nom": "Lycaon",
+            "voie": "Confusion",
+            "element": "glace",
+            "image": "images/ZZZ/lycaon.webp",
+            "rang": "S",
+            "lien": "personnage/Lycaon.html"
+        },
+
+        {
+            "id" : 11,
+            "nom": "Nekomata",
+            "voie": "Attack",
+            "element": "physique",
+            "image": "images/ZZZ/nekomata.webp",
+            "rang": "S",
+            "lien": "personnage/Nekomata.html"
+        },
+
+        {
+            "id" : 12,
+            "nom": "Nicole",
+            "voie": "Support",
+            "element": "Ether",
+            "image": "images/ZZZ/nicole.webp",
+            "rang": "A",
+            "lien": "personnage/Nicole.html"
+        },
+
+        {
+            "id" : 13,
+            "nom": "Piper",
+            "voie": "Anomalie",
+            "element": "physique",
+            "image": "images/ZZZ/piper.webp",
+            "rang": "A",
+            "lien": "personnage/Piper.html"
+        },
+
+        {
+            "id" : 14,
+            "nom": "Rina",
+            "voie": "Support",
+            "element": "Electrique",
+            "image": "images/ZZZ/rina.webp",
+            "rang": "S",
+            "lien": "personnage/Rina.html"
+        },
+
+        {
+            "id" : 15,
+            "nom": "Soldier 11",
+            "voie": "Attack",
+            "element": "feu",
+            "image": "images/ZZZ/soldier11.webp",
+            "rang": "S",
+            "lien": "personnage/Soldier11.html"
+        },
+
+        {
+            "id" : 16,
+            "nom": "Soukaku",
+            "voie": "Support",
+            "element": "glace",
+            "image": "images/ZZZ/soukaku.webp",
+            "rang": "A",
+            "lien": "personnage/Soukaku.html"
+        },
+
+        {
+            "id" : 17,
+            "nom": "Zhu Yan",
+            "voie": "Attack",
+            "element": "Ether",
+            "image": "images/ZZZ/zhuyuan.webp",
+            "rang": "S",
+            "lien": "personnage/ZhuYan.html"
+        }
+],
+
+    "Wuwa":[
+        {
+            "id" : 1,
+            "nom": "Aalto",
+            "voie": "Pistols",
+            "element": "Aero",
+            "image": "images/WUWA/aalto.webp",
+            "rang": "4",
+            "lien": "personnage/Aalto.html"
+        },
+
+        {
+            "id" : 2,
+            "nom": "Baizhi",
+            "voie": "Rectifier",
+            "element": "Glacio",
+            "image": "images/WUWA/baizhi.webp",
+            "rang": "4",
+            "lien": "personnage/Baizhi.html"
+        },
+
+        {
+            "id" : 3,
+            "nom": "Calcharo",
+            "voie": "Broadblade",
+            "element": "Electro",
+            "image": "images/WUWA/calcharo.webp",
+            "rang": "5",
+            "lien": "personnage/Calcharo.html"
+        },
+        
+        {
+            "id" : 4,
+            "nom": "Changli",
+            "voie": "Sword",
+            "element": "Fusion",
+            "image": "images/WUWA/changli.webp",
+            "rang": "5",
+            "lien": "personnage/Changli.html"
+        },
+        
+        {
+            "id" : 5,
+            "nom": "Chixia",
+            "voie": "Pistols",
+            "element": "Fusion",
+            "image": "images/WUWA/chixia.webp",
+            "rang": "4",
+            "lien": "personnage/Chixia.html"
+        },
+
+        {
+            "id" : 6,
+            "nom": "Danjin",
+            "voie": "Sword",
+            "element": "Havoc",
+            "image": "images/WUWA/danjin.webp",
+            "rang": "4",
+            "lien": "personnage/Danjin.html"
+        },
+
+        {
+            "id" : 7,
+            "nom": "Encore",
+            "voie": "Rectifier",
+            "element": "Fusion",
+            "image": "images/WUWA/encore.webp",
+            "rang": "5",
+            "lien": "personnage/Encore.html"
+        },
+
+        {
+            "id" : 8,
+            "nom": "Jianxin",
+            "voie": "Gauntlets",
+            "element": "Aero",
+            "image": "images/WUWA/jianxin.webp",
+            "rang": "5",
+            "lien": "personnage/Jianxin.html"
+        },
+
+        {
+            "id" : 9,
+            "nom": "Jinhsi",
+            "voie": "Broadblade",
+            "element": "Spectro",
+            "image": "images/WUWA/jinhsi.webp",
+            "rang": "5",
+            "lien": "personnage/Jinhsi.html"
+        },
+
+        {
+            "id" : 10,
+            "nom": "Jiyan",
+            "voie": "Broadblade",
+            "element": "Aero",
+            "image": "images/WUWA/jiyan.webp",
+            "rang": "5",
+            "lien": "personnage/Jiyan.html"
+        },
+
+        {
+            "id" : 11,
+            "nom": "Lingyang",
+            "voie": "Gauntlets",
+            "element": "Glacio",
+            "image": "images/WUWA/lingyang.webp",
+            "rang": "5",
+            "lien": "personnage/Lingyang.html"
+        },
+
+        {
+            "id" : 12,
+            "nom": "Mortefi",
+            "voie": "Pistols",
+            "element": "Fusion",
+            "image": "images/WUWA/mortefi.webp",
+            "rang": "4",
+            "lien": "personnage/Mortefi.html"
+        },
+
+        {
+            "id" : 13,
+            "nom": "Rover (Havoc)",
+            "voie": "Sword",
+            "element": "Havoc",
+            "image": "images/WUWA/roverhavoc.webp",
+            "rang": "5",
+            "lien": "personnage/RoverHavoc.html"
+        },
+
+        {
+            "id" : 14,
+            "nom": "Rover (Spectro)",
+            "voie": "Sword",
+            "element": "Spectro",
+            "image": "images/WUWA/roverspectro.webp",
+            "rang": "5",
+            "lien": "personnage/RoverSpectro.html"
+        },
+
+        {
+            "id" : 15,
+            "nom": "Sanhua",
+            "voie": "Sword",
+            "element": "Glacio",
+            "image": "images/WUWA/sanhua.webp",
+            "rang": "4",
+            "lien": "personnage/Sanhua.html"
+        },
+
+        {
+            "id" : 16,
+            "nom": "Taoqi",
+            "voie": "Broadblade",
+            "element": "Havoc",
+            "image": "images/WUWA/taoqi.webp",
+            "rang": "4",
+            "lien": "personnage/Taoqi.html"
+        },
+
+        {
+            "id" : 17,
+            "nom": "Verina",
+            "voie": "Rectifier",
+            "element": "Spectro",
+            "image": "images/WUWA/verina.webp",
+            "rang": "5",
+            "lien": "personnage/Verina.html"
+        },
+
+        {
+            "id" : 18,
+            "nom": "Yangyang",
+            "voie": "Sword",
+            "element": "Aero",
+            "image": "images/WUWA/yangyang.webp",
+            "rang": "4",
+            "lien": "personnage/Yangyang.html"
+        },
+
+        {
+            "id" : 19,
+            "nom": "Yinlin",
+            "voie": "Rectifier",
+            "element": "Electro",
+            "image": "images/WUWA/yinlin.webp",
+            "rang": "5",
+            "lien": "personnage/Yinlin.html"
+        },
+
+        {
+            "id" : 20,
+            "nom": "Yuanwu",
+            "voie": "Gauntlets",
+            "element": "Electro",
+            "image": "images/WUWA/yuanwu.webp",
+            "rang": "4",
+            "lien": "personnage/Yuanwu.html"
+        }
+    ]
+}

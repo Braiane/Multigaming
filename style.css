@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* body de la page Honkai star rail */
+.body  {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 60rem;
+	margin: auto;
+
+	font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+}
+
+.HSR{
+    background-image: url("images/HSR/starrailtrain.webp");
+    background-size: cover; /* Couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-attachment: fixed;
+    padding: 16px;
+}
+
+.ZZZ {
+    background-image: url("images/ZZZ/ZZZ.webp");
+    background-size: cover; /* Couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-attachment: fixed;
+    padding: 16px;
+}
+
+.WUWA {
+    background-image: url("images/WUWA/WUWA.webp");
+    background-size: cover; /* Couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-attachment: fixed;
+    padding: 16px;
+}
+
+.jeu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    margin: 0;
+}
+
+/* Assure que les images remplissent leur conteneur */
+.jeu a img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover; /* Assure que l'image couvre son conteneur sans déformation */
+}
+
+/* Body de l'index */
+.acceuil {
+    background-image: repeating-linear-gradient(45deg, rgba(97,97,97,0.1) 0px, rgba(97,97,97,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(43,43,43),rgb(43,43,43));
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 60rem;
+	margin: auto;
+	padding: 16px;
+	font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	padding: 8px;
+	text-align: center;
+    border-radius: 5px;
+    /* Optionnel : Ajoutez une couleur de fond avec transparence pour mieux voir l'effet */
+    background-color: rgba(0, 0, 0, 0.274); /* Ajustez l'opacité selon vos préférences */
+    color: white;
+   
+}
+
+header img {
+    max-width: 6vw; /* ou une autre valeur adaptée */
+    height: auto;    /* Maintient le ratio d'aspect */
+    margin-left: 1rem;
+}
+
+header h1 {
+	flex-grow: 1; 
+    font-size: clamp(10px, 4vw, 70px);
+}
+
+@media screen and (max-width: 750px) {
+    header img {
+        display: none;
+    }
+}
+
+.fiches {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Ajuste la largeur minimale des fiches */
+    gap: 20px; /* Espacement entre les fiches */
+    padding: 20px;
+    align-items: start; /* Aligne les fiches en haut */
+}
+
+/* Styles pour chaque article (fiche) */
+.fiches article { 
+    border: 1px solid black;
+    backdrop-filter: blur(10px); /* Applique un flou de 10 pixels à l'arrière-plan */
+
+
+    margin: 0 auto; /* Centre les fiches horizontalement */
+    overflow: hidden; /* Masque tout débordement */
+}
+
+/* Styles pour les images */
+.fiches article img {
+    display: block;
+    width: 100%; /* Assure que l'image prend toute la largeur du conteneur */
+    height: 100%; /* Assure que l'image prend toute la hauteur du conteneur */
+    object-fit: cover; /* Remplit le conteneur tout en conservant le ratio d'aspect */
+    transition: transform 0.5s; /* Transition pour le scale */
+}
+
+
+.fiches article p {
+    z-index: 4;
+    background: black;
+    text-align: center;
+    color: black;
+    transition: color 0.5s;
+    font-weight: bold;
+    bottom: 0;
+}
+
+
+/* Style pour le titre */
+.fiches article h2 {
+
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    z-index: 3; /* Assure que le titre est toujours au-dessus de l'image */
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    font-size: 15px;
+    top: 0;
+     /* Espacement vertical autour du titre */
+}
+
+#element, #voie, #rang{
+
+    width: 100%;
+    margin: 5px ;
+}
+
+.filtres{
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    padding: 16px;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.356);
+}
+
+
+
+/* Préchargeur */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0); /* Couleur de fond légèrement opaque */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Assure que le préchargeur est au-dessus de tout le contenu */
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Animation du spinner */
+.spinner {
+    border: 8px solid #f3f3f3; /* Couleur de fond du spinner */
+    border-top: 8px solid #3498db; /* Couleur du spinner */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+/* Animation du spinner */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (min-width: 425px) and (max-width: 491px) {
+    .fiches {
+        grid-template-columns: repeat(2, 1fr); /* Utilise 2 colonnes pour éviter les espaces vides */
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+
+button {
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+}
+
+.reset {
+    background-color: red;
+}
+
+button{
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid gray; /* Définit la bordure de 3px de largeur et de couleur blanche */
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 2px;
+    font-size: 24px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */ /* Retirez ou ajustez cette propriété si vous ne voulez pas de coins arrondis */
+}
+
+button:hover {
+    border-color: yellow;
+    background-color: rgb(61, 61, 61);
+}
+
+.active {
+    border-color: yellow;
+    background-color: rgb(61, 61, 61);
+}
+
+.pagepersonnage {
+    display: flex;
+    align-items: start; /* Aligne les fiches en haut */
+}
+
+/* Styles pour chaque article (fiche) */
+.pagepersonnage article { 
+    border: 1px solid black;
+    backdrop-filter: blur(10px); /* Applique un flou de 10 pixels à l'arrière-plan */
+    background-color: rgb(48, 48, 48);
+
+    margin: 0 auto; /* Centre les fiches horizontalement */
+    overflow: hidden; /* Masque tout débordement */
+}
+
+/* Styles pour les images */
+.pagepersonnage article img {
+    width: 100%; /* Assure que l'image prend toute la largeur du conteneur */
+    height: 100%; /* Assure que l'image prend toute la hauteur du conteneur */
+    object-fit: cover; /* Remplit le conteneur tout en conservant le ratio d'aspect */
+    transition: transform 0.5s; /* Transition pour le scale */
+}
+
+
+.pagepersonnage article p {
+    z-index: 4;
+    background: black;
+    text-align: center;
+    color: black;
+    transition: color 0.5s;
+    font-weight: bold;
+    bottom: 0;
+}
+
+
+/* Style pour le titre */
+.pagepersonnage article h2 {
+
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    z-index: 3; /* Assure que le titre est toujours au-dessus de l'image */
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    font-size: 15px;
+    top: 0;
+
+}
+
+
+
+
+.intro{
+    border-width: 5px;
+    border-style: solid;
+}
+
+
+
+.container {
+    border-style: solid;
+    text-align: center;
+    width: calc(100% - 100px); /* Ajustez selon vos besoins */
+    margin: 10px 50px 20px; /* top, right, bottom */
+    box-sizing: border-box;
+    background: #858383; /* Ajoutez une couleur de fond pour visualiser le conteneur */
+}
+
+.container img {
+    border: 5px solid black;
+    width: 100%;
+    object-fit: cover;
+}
